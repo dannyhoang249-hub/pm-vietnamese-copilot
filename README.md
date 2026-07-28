@@ -53,18 +53,18 @@ Không cần command nếu yêu cầu đơn giản. Gọi `$pm-vietnamese-copilo
 Clone repository hoặc tải file ZIP. Với Git:
 
 ```bash
-git clone https://github.com/<owner>/<repo>.git
-cd <repo>
+git clone https://github.com/dannyhoang249-hub/pm-vietnamese-copilot.git
+cd pm-vietnamese-copilot
 ```
 
-Thay `<owner>/<repo>` bằng repository GitHub của bạn. Nếu đang làm trực tiếp trong repository này, bỏ qua bước clone.
+Nếu đang làm trực tiếp trong repository này, bỏ qua bước clone.
 
 ### 3. Claude Code / Claude Cowork — cài native plugin
 
 Thêm marketplace và cài plugin:
 
 ```bash
-claude plugin marketplace add <owner>/<repo>
+claude plugin marketplace add dannyhoang249-hub/pm-vietnamese-copilot
 claude plugin install pm-vietnamese-copilot@pm-vietnamese-copilot
 ```
 
