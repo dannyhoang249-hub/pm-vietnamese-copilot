@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vietnamese PM Copilot"
+  short_description: "Khung làm việc PM song ngữ, thực dụng."
+  default_prompt: "Use $pm-vietnamese-copilot to turn this product problem into a Vietnamese PM deliverable."

@@ -1,0 +1,20 @@
+{
+  "name": "pm-vietnamese-copilot",
+  "version": "1.0.0",
+  "description": "Vietnamese-first bilingual product management workflows for discovery, PRDs, backlog, prioritization, metrics, and stakeholder communication.",
+  "author": {
+    "name": "Hoang Dung Nguyen",
+    "url": "https://github.com/dannyhoang249-hub"
+  },
+  "keywords": [
+    "product-management",
+    "vietnamese",
+    "bilingual",
+    "prd",
+    "discovery",
+    "backlog",
+    "prioritization",
+    "metrics"
+  ],
+  "license": "MIT"
+}
