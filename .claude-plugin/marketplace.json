@@ -1,8 +1,8 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pm-vietnamese-copilot",
-  "version": "1.0.0",
-  "description": "Vietnamese-first bilingual product management workflows for discovery, PRDs, backlog, prioritization, metrics, and stakeholder communication.",
+  "version": "1.3.0",
+  "description": "Personal bilingual Vietnamese-English PM workflows with Karpathy-inspired decision quality, discovery, execution, metrics, feedback, meetings, and pre-mortems.",
   "owner": {
     "name": "Hoang Dung Nguyen",
     "url": "https://github.com/dannyhoang249-hub"
@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "pm-vietnamese-copilot",
-      "description": "Vietnamese-first bilingual PM workflows for discovery, product execution, strategy, data, and stakeholder communication.",
+      "description": "Personal bilingual Vietnamese-English PM workflows and skills for decision quality, discovery, execution, prioritization, metrics, feedback, meetings, and risk review.",
       "source": ".",
       "category": "product-management"
     }

@@ -1,22 +1,26 @@
-# PM templates — Vietnamese-first
+# Mẫu PM — tiếng Việt là mặc định
 
-Use only the sections needed to make the next product decision or delivery step clear.
+Chỉ dùng các phần cần thiết để làm rõ quyết định hoặc bước thực thi kế tiếp. Mọi số liệu, insight và trích dẫn chưa được cung cấp phải được ghi là giả định hoặc câu hỏi cần xác minh.
 
 ## Discovery brief
 
 ```markdown
-# [Tên vấn đề]
+# [Tên vấn đề / cơ hội]
+
+## Quyết định cần đưa ra
+- Quyết định:
+- Owner / thời điểm cần quyết định:
 
 ## Vấn đề và kết quả mong muốn
 - Người dùng / phân khúc:
 - Bối cảnh và nhu cầu (JTBD):
-- Vấn đề / tác động:
-- Quyết định cần đưa ra:
+- Pain / tác động hiện tại:
+- Outcome mong muốn:
 
 ## Bằng chứng hiện có
 - Sự thật / dữ liệu:
 - Phản hồi người dùng:
-- Giả định cần kiểm chứng:
+- Điều chưa biết / giả định:
 
 ## Cơ hội và lựa chọn
 | Lựa chọn | Giá trị kỳ vọng | Rủi ro / đánh đổi | Bằng chứng cần có |
@@ -34,15 +38,16 @@ Use only the sections needed to make the next product decision or delivery step 
 ```markdown
 # PRD — [Tên tính năng]
 
-## Bối cảnh
-## Mục tiêu và chỉ số thành công
+## Bối cảnh và vấn đề
+## Mục tiêu, chỉ số thành công và guardrail
 ## Không nằm trong phạm vi
 ## Người dùng và tình huống sử dụng
+## Phạm vi phát hành / rollout
 ## Yêu cầu chức năng
 ## Yêu cầu phi chức năng / ràng buộc
-## Phân tích & sự kiện cần theo dõi
+## Analytics: events, properties, dashboard
 ## Rủi ro, phụ thuộc, câu hỏi mở
-## Kế hoạch phát hành và học hỏi
+## Kế hoạch phát hành, hỗ trợ và học hỏi
 ```
 
 ## Backlog item
@@ -62,13 +67,13 @@ Use only the sections needed to make the next product decision or delivery step 
 **Phụ thuộc / câu hỏi mở:**
 ```
 
-## Prioritization memo
+## Decision memo / ưu tiên
 
 ```markdown
 # Quyết định ưu tiên — [Mục tiêu]
 
 ## Bối cảnh và ràng buộc
-## Tiêu chí đánh giá
+## Tiêu chí đánh giá và mức độ tin cậy
 ## So sánh lựa chọn
 | Lựa chọn | Reach | Impact | Confidence | Effort | Điểm / nhận định | Ghi chú |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
@@ -76,6 +81,40 @@ Use only the sections needed to make the next product decision or delivery step 
 ## Khuyến nghị
 ## Đánh đổi và rủi ro
 ## Bước xác thực hoặc thực thi tiếp theo
+```
+
+## Measurement plan
+
+```markdown
+# Kế hoạch đo lường — [Sản phẩm / tính năng]
+
+## Outcome cần tạo ra
+## North Star metric
+## Input metrics và guardrails
+| Metric | Công thức | Event / nguồn | Segment | Baseline | Target | Owner | Cadence |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## Tracking plan
+| Event | Khi ghi nhận | Properties bắt buộc | Mục đích |
+| --- | --- | --- | --- |
+
+## Quy tắc ra quyết định
+## Rủi ro về dữ liệu / việc cần xác minh
+```
+
+## Feedback synthesis
+
+```markdown
+# Tổng hợp phản hồi — [Nguồn / khoảng thời gian]
+
+## Phạm vi và giới hạn dữ liệu
+## Chủ đề nổi bật
+| Chủ đề | Tín hiệu / bằng chứng | Phân khúc bị ảnh hưởng | Mức độ nghiêm trọng | Độ tin cậy |
+| --- | --- | --- | --- | --- |
+
+## Insight và cơ hội
+## Điều không thể kết luận từ dữ liệu này
+## Khuyến nghị và bước xác minh tiếp theo
 ```
 
 ## Decision record / meeting summary
